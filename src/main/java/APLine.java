@@ -1,7 +1,7 @@
 public class APLine
 {
   /* your code here */
-  int A, B, C; 
+  private int A, B, C; 
   public APLine(int a, int b, int c){
     int A = a;
     int B=b;
@@ -10,8 +10,8 @@ public class APLine
 
     
   }
-  public int getSlope(){
-    int slope = -a/b;
+  public double getSlope(){
+    double slope = -a/b;
     return slope; 
 
     
