@@ -18,6 +18,7 @@ public class APLine
   }
   public boolean isOnLine(int x, int y){
     if ((a*x+b*y+c)==0)
-      
+      return true;
+    return false;
   }
 }
