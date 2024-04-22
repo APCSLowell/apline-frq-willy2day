@@ -1,23 +1,23 @@
 public class APLine
 {
   /* your code here */
-  private int A, B, C; 
-  public APLine(int a, int b, int c){
-    int A = a;
-    int B=b;
-    int C=c;
+  private int a, b, c; 
+  public APLine(int A, int B, int C){
+    int a = A;
+    int b=B;
+    int c=C;
 
 
     
   }
   public double getSlope(){
-    double slope = -a/b;
+    double slope = (double) -a/b;
     return slope; 
 
     
   }
   public boolean isOnLine(int x, int y){
-    if ((A*(x)*(x)+B*x+C)==0)
+    if ((a*(x)+b*y+c)==0)
       return true;
     return false; 
   }
